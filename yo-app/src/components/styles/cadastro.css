@@ -1,5 +1,6 @@
 
 h1{
+    font-family: 'Open Sans', sans-serif;
     color: white;
     position: absolute;
     left: 50%;
@@ -40,28 +41,38 @@ button{
     color: white;
 }
 
+#bolas{
+display: flex;
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
 #btn1{
-    border-radius: 100px;
+    border-radius: 200px;
     background-color: #947be7;
     text-align: center;
-    height: 100px;
-    width: 99px;
-    position: absolute;
-    top: 50%;
-    left: 59%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 60px;
+    color: #cc8acf;
+    font-size: 25px;
 }
 
 #btn2{
-    border-radius: 100px;
+    border-radius: 200px;
     background-color: #cc8acf;
     text-align: center;
-    height: 100px;
-    width: 99px;
-    position: absolute;
-    top: 50%;
-    left: 41%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 60px;
+    color: #947be7;
+    font-size: 25px;
 }
 
 p{
